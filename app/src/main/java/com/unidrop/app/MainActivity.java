@@ -4,18 +4,32 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 public class MainActivity extends AppCompatActivity {
+
+    CardView otpCard;
+    CardView deliveryCard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_home);
 
-        startActivity(new Intent(
-                MainActivity.this,
-                ProfileActivity.class
-        ));
+        // Generate OTP Card
+        otpCard = findViewById(R.id.cardGenerateOtp);
 
-        finish();
+        otpCard.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, GenerateOtpActivity.class);
+            startActivity(intent);
+        });
+
+        // Delivery Mode Card
+        deliveryCard = findViewById(R.id.deliveryCard);
+
+        deliveryCard.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, DeliveryModeActivity.class);
+            startActivity(intent);
+        });
     }
 }
