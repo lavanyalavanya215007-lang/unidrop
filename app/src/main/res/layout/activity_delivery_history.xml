@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery History"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivered | OTP: 583214 | 08 Sep 2025 04:32 PM"
+            android:padding="12dp"
+            android:background="#E8F5E9"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivered | OTP: 732481 | 06 Sep 2025 11:20 AM"
+            android:padding="12dp"
+            android:background="#E8F5E9"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pending | OTP: 284693 | 02 Sep 2025 05:15 PM"
+            android:padding="12dp"
+            android:background="#FFF3E0"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivered | OTP: 915302 | 28 Aug 2025 01:40 PM"
+            android:padding="12dp"
+            android:background="#E8F5E9"/>
+
+    </LinearLayout>
+
+</ScrollView>

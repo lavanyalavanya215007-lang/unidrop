@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">UNIDROP</string>
+
+    <string name="delivery_box">Delivery Box</string>
+    <string name="select_delivery_time">Select Delivery Time</string>
+    <string name="set_delivery_access_time">Set delivery access time</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="start_time_hint">08:00 AM</string>
+    <string name="end_time_hint">08:00 PM</string>
+    <string name="save">Save</string>
+
+    <string name="back_arrow">←</string>
+    <string name="notifications_title">Notifications</string>
+
+    <string name="check_mark">✓</string>
+    <string name="warning_mark">!</string>
+    <string name="info_mark">i</string>
+
+        <string name="delivery_successful">Delivery Successful</string>
+        <string name="delivery_success_msg">Your parcel has been delivered.</string>
+        <string name="delivery_success_time">Today, 04:32 PM</string>
+
+        <string name="otp_generated">OTP Generated</string>
+        <string name="otp_generated_msg">Your OTP is 583214.</string>
+        <string name="otp_generated_time">Today, 04:20 PM</string>
+
+        <string name="delivery_mode_on">Delivery Mode ON</string>
+        <string name="delivery_mode_msg">Delivery mode is active.</string>
+        <string name="delivery_mode_time">Today, 08:00 AM</string>
+
+        <string name="new_login">New Login</string>
+        <string name="new_login_msg">You logged in from a new device.</string>
+        <string name="new_login_time">Yesterday, 06:15 PM</string>
+
 </resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/delivery_box"
+            android:contentDescription="@string/delivery_box" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_delivery_time"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#008F4C"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_delivery_access_time"
+            android:textSize="16sp"
+            android:textColor="#777777"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp" />
+
+        <TextView
+            android:id="@+id/txtStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_time"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etStartTime"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:drawable/editbox_background"
+            android:focusable="false"
+            android:padding="12dp"
+            android:hint="@string/start_time_hint"
+            android:inputType="none"
+            android:autofillHints=""
+            android:labelFor="@id/txtStart"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/end_time"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etEndTime"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:drawable/editbox_background"
+            android:focusable="false"
+            android:padding="12dp"
+            android:hint="@string/end_time_hint"
+            android:inputType="none"
+            android:autofillHints=""
+            android:labelFor="@id/txtEnd"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnSaveTime"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/save"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#008F4C"/>
+
+    </LinearLayout>
+
+</ScrollView>
