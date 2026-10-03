@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Green Header -->
+        <!-- Header -->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,10 +21,10 @@
             <TextView
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:background="#FFFFFF"
                 android:gravity="center"
                 android:text="👤"
-                android:textSize="40sp"
-                android:background="#FFFFFF"/>
+                android:textSize="40sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -33,18 +33,18 @@
                 android:text="Lavanya"
                 android:textColor="#FFFFFF"
                 android:textSize="22sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="lavanya@gmail.com"
                 android:textColor="#E0E0E0"
-                android:textSize="14sp"/>
+                android:textSize="14sp" />
 
         </LinearLayout>
 
-        <!-- Menu Items -->
+        <!-- Menu -->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,31 +55,31 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-                android:text="Personal Information"/>
+                android:text="Personal Information" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_marginTop="10dp"
-                android:text="Change Password"/>
+                android:text="Change Password" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_marginTop="10dp"
-                android:text="Notifications"/>
+                android:text="Notifications" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_marginTop="10dp"
-                android:text="Help & Support"/>
+                android:text="Help &amp; Support" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_marginTop="10dp"
-                android:text="About UNIDROP"/>
+                android:text="About UNIDROP" />
 
         </LinearLayout>
 
